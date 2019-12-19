@@ -1,0 +1,374 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0",
+        "title": "Rotten Tomatoes",
+        "description": "Test our API services using I\/O Docs.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsapi.rottentomatoes.com\/api\/public\/v1.0"
+    ],
+    "paths": {
+        "\/lists.json": {
+            "get": {
+                "summary": "Get Lists",
+                "description": "Get lists.json.",
+                "operationId": "GetListsJson",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/lists\/dvds.json": {
+            "get": {
+                "summary": "Get Lists Dvds",
+                "description": "Get lists dvds.json.",
+                "operationId": "GetListsDvdsJson",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/lists\/dvds\/current_releases.json": {
+            "get": {
+                "summary": "Get Lists Dvds Current Releases",
+                "description": "Get lists dvds current releases.json.",
+                "operationId": "GetListsDvdsCurrentReleasesJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "page_limit",
+                        "in": "query",
+                        "description": "The amount of new release dvds to show per page"
+                    },
+                    {
+                        "name": "page",
+                        "in": "query",
+                        "description": "The selected page of current DVD releases"
+                    },
+                    {
+                        "name": "country",
+                        "in": "query",
+                        "description": "Provides localized data for the selected country (ISO 3166-1 alpha-2) if available. Otherwise, returns US data."
+                    }
+                ]
+            }
+        },
+        "\/lists\/dvds\/new_releases.json": {
+            "get": {
+                "summary": "Get Lists Dvds New Releases",
+                "description": "Get lists dvds new releases.json.",
+                "operationId": "GetListsDvdsNewReleasesJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "page_limit",
+                        "in": "query",
+                        "description": "The amount of new release dvds to show per page"
+                    },
+                    {
+                        "name": "page",
+                        "in": "query",
+                        "description": "The selected page of current DVD releases"
+                    },
+                    {
+                        "name": "country",
+                        "in": "query",
+                        "description": "Provides localized data for the selected country (ISO 3166-1 alpha-2) if available. Otherwise, returns US data."
+                    }
+                ]
+            }
+        },
+        "\/lists\/dvds\/top_rentals.json": {
+            "get": {
+                "summary": "Get Lists Dvds Top Rentals",
+                "description": "Get lists dvds top rentals.json.",
+                "operationId": "GetListsDvdsTopRentalsJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "Limits the number of top rentals returned"
+                    },
+                    {
+                        "name": "country",
+                        "in": "query",
+                        "description": "Provides localized data for the selected country (ISO 3166-1 alpha-2) if available. Otherwise, returns US data."
+                    }
+                ]
+            }
+        },
+        "\/lists\/dvds\/upcoming.json": {
+            "get": {
+                "summary": "Get Lists Dvds Upcoming",
+                "description": "Get lists dvds upcoming.json.",
+                "operationId": "GetListsDvdsUpcomingJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "page_limit",
+                        "in": "query",
+                        "description": "The amount of new release dvds to show per page"
+                    },
+                    {
+                        "name": "page",
+                        "in": "query",
+                        "description": "The selected page of current DVD releases"
+                    },
+                    {
+                        "name": "country",
+                        "in": "query",
+                        "description": "Provides localized data for the selected country (ISO 3166-1 alpha-2) if available. Otherwise, returns US data."
+                    }
+                ]
+            }
+        },
+        "\/lists\/movies.json": {
+            "get": {
+                "summary": "Get Lists Movies",
+                "description": "Get lists movies.json.",
+                "operationId": "GetListsMoviesJson",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/lists\/movies\/box_office.json": {
+            "get": {
+                "summary": "Get Lists Movies Box Office",
+                "description": "Get lists movies box office.json.",
+                "operationId": "GetListsMoviesBoxOfficeJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "Limits the number of top rentals returned"
+                    },
+                    {
+                        "name": "country",
+                        "in": "query",
+                        "description": "Provides localized data for the selected country (ISO 3166-1 alpha-2) if available. Otherwise, returns US data."
+                    }
+                ]
+            }
+        },
+        "\/lists\/movies\/in_theaters.json": {
+            "get": {
+                "summary": "Get Lists Movies In Theaters",
+                "description": "Get lists movies in theaters.json.",
+                "operationId": "GetListsMoviesInTheatersJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "page_limit",
+                        "in": "query",
+                        "description": "The amount of new release dvds to show per page"
+                    },
+                    {
+                        "name": "page",
+                        "in": "query",
+                        "description": "The selected page of current DVD releases"
+                    },
+                    {
+                        "name": "country",
+                        "in": "query",
+                        "description": "Provides localized data for the selected country (ISO 3166-1 alpha-2) if available. Otherwise, returns US data."
+                    }
+                ]
+            }
+        },
+        "\/lists\/movies\/opening.json": {
+            "get": {
+                "summary": "Get Lists Movies Opening",
+                "description": "Get lists movies opening.json.",
+                "operationId": "GetListsMoviesOpeningJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "Limits the number of top rentals returned"
+                    },
+                    {
+                        "name": "country",
+                        "in": "query",
+                        "description": "Provides localized data for the selected country (ISO 3166-1 alpha-2) if available. Otherwise, returns US data."
+                    }
+                ]
+            }
+        },
+        "\/lists\/movies\/upcoming.json": {
+            "get": {
+                "summary": "Get Lists Movies Upcoming",
+                "description": "Get lists movies upcoming.json.",
+                "operationId": "GetListsMoviesUpcomingJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "page_limit",
+                        "in": "query",
+                        "description": "The amount of new release dvds to show per page"
+                    },
+                    {
+                        "name": "page",
+                        "in": "query",
+                        "description": "The selected page of current DVD releases"
+                    },
+                    {
+                        "name": "country",
+                        "in": "query",
+                        "description": "Provides localized data for the selected country (ISO 3166-1 alpha-2) if available. Otherwise, returns US data."
+                    }
+                ]
+            }
+        },
+        "\/movie_alias.json": {
+            "get": {
+                "summary": "Get Movie Alias",
+                "description": "Get movie alias.json.",
+                "operationId": "GetMovieAliasJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "query",
+                        "description": "Movie ID. You can use the movies search endpoint or peruse the lists of movies\/dvds to get the Movie ID"
+                    },
+                    {
+                        "name": "type",
+                        "in": "query",
+                        "description": "Only supports imdb lookup at this time"
+                    }
+                ]
+            }
+        },
+        "\/movies.json": {
+            "get": {
+                "summary": "Get Movies",
+                "description": "Get movies.json.",
+                "operationId": "GetMoviesJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "q",
+                        "in": "query",
+                        "description": "The plain text search query to search for a movie. Remember to URI encode this!"
+                    },
+                    {
+                        "name": "page_limit",
+                        "in": "query",
+                        "description": "The amount of new release dvds to show per page"
+                    },
+                    {
+                        "name": "page",
+                        "in": "query",
+                        "description": "The selected page of current DVD releases"
+                    }
+                ]
+            }
+        },
+        "\/movies\/{id}.json": {
+            "get": {
+                "summary": "Get Movies ",
+                "description": "Get movies .json.",
+                "operationId": "GetMoviesJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Movie ID. You can use the movies search endpoint or peruse the lists of movies\/dvds to get the Movie ID"
+                    }
+                ]
+            }
+        },
+        "\/movies\/{id}\/cast.json": {
+            "get": {
+                "summary": "Get Movies Cast",
+                "description": "Get movies cast.json.",
+                "operationId": "GetMoviesCastJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Movie ID. You can use the movies search endpoint or peruse the lists of movies\/dvds to get the Movie ID"
+                    }
+                ]
+            }
+        },
+        "\/movies\/{id}\/clips.json": {
+            "get": {
+                "summary": "Get Movies Clips",
+                "description": "Get movies clips.json.",
+                "operationId": "GetMoviesClipsJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Movie ID. You can use the movies search endpoint or peruse the lists of movies\/dvds to get the Movie ID"
+                    }
+                ]
+            }
+        },
+        "\/movies\/{id}\/reviews.json": {
+            "get": {
+                "summary": "Get Movies Reviews",
+                "description": "Get movies reviews.json.",
+                "operationId": "GetMoviesReviewsJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Movie ID. You can use the movies search endpoint or peruse the lists of movies\/dvds to get the Movie ID"
+                    },
+                    {
+                        "name": "review_type",
+                        "in": "query",
+                        "description": "3 different review types are possible: 'all', 'top_critic' and 'dvd'. 'top_critic' shows all the Rotten Tomatoes designated top critics. 'dvd' pulls the reviews given on the DVD of the movie. 'all' as the name implies retrieves all reviews."
+                    },
+                    {
+                        "name": "page_limit",
+                        "in": "query",
+                        "description": "The amount of new release dvds to show per page"
+                    },
+                    {
+                        "name": "page",
+                        "in": "query",
+                        "description": "The selected page of current DVD releases"
+                    },
+                    {
+                        "name": "country",
+                        "in": "query",
+                        "description": "Provides localized data for the selected country (ISO 3166-1 alpha-2) if available. Otherwise, returns US data."
+                    }
+                ]
+            }
+        },
+        "\/movies\/{id}\/similar.json": {
+            "get": {
+                "summary": "Get Movies Similar",
+                "description": "Get movies similar.json.",
+                "operationId": "GetMoviesSimilarJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Movie ID. You can use the movies search endpoint or peruse the lists of movies\/dvds to get the Movie ID"
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "Limits the number of top rentals returned"
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
