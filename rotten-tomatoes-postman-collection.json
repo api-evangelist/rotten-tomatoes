@@ -1,0 +1,694 @@
+{
+    "id": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+    "name": "Rotten Tomatoes",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "3df543a2182593892c86ec5a73bd6d66",
+            "name": "Get Lists",
+            "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/lists.json",
+            "description": "Get lists.json.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "rawModeData": ""
+        },
+        {
+            "id": "080335a056346ecff79ef28f23219dcf",
+            "name": "Get Lists Dvds",
+            "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/lists\/dvds.json",
+            "description": "Get lists dvds.json.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "rawModeData": ""
+        },
+        {
+            "id": "a6239729e06f33ec17c9bdb17961ba68",
+            "name": "Get Lists Dvds Current Releases",
+            "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/lists\/dvds\/current_releases.json",
+            "description": "Get lists dvds current releases.json.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "page_limit",
+                    "description": "The amount of new release dvds to show per page",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "page",
+                    "description": "The selected page of current DVD releases",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "country",
+                    "description": "Provides localized data for the selected country (ISO 3166-1 alpha-2) if available. Otherwise, returns US data.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "rawModeData": ""
+        },
+        {
+            "id": "c70c2ceb3d086dd4b808e7324865ac1a",
+            "name": "Get Lists Dvds New Releases",
+            "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/lists\/dvds\/new_releases.json",
+            "description": "Get lists dvds new releases.json.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "page_limit",
+                    "description": "The amount of new release dvds to show per page",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "page",
+                    "description": "The selected page of current DVD releases",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "country",
+                    "description": "Provides localized data for the selected country (ISO 3166-1 alpha-2) if available. Otherwise, returns US data.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "rawModeData": ""
+        },
+        {
+            "id": "a6489d53f5f740c69c2e8fa1ade04654",
+            "name": "Get Lists Dvds Top Rentals",
+            "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/lists\/dvds\/top_rentals.json",
+            "description": "Get lists dvds top rentals.json.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "limit",
+                    "description": "Limits the number of top rentals returned",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "country",
+                    "description": "Provides localized data for the selected country (ISO 3166-1 alpha-2) if available. Otherwise, returns US data.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "rawModeData": ""
+        },
+        {
+            "id": "50365d55c2550baa80d1dd3022dad840",
+            "name": "Get Lists Dvds Upcoming",
+            "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/lists\/dvds\/upcoming.json",
+            "description": "Get lists dvds upcoming.json.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "page_limit",
+                    "description": "The amount of new release dvds to show per page",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "page",
+                    "description": "The selected page of current DVD releases",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "country",
+                    "description": "Provides localized data for the selected country (ISO 3166-1 alpha-2) if available. Otherwise, returns US data.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "rawModeData": ""
+        },
+        {
+            "id": "eb06203141938eaa7181c02110139eff",
+            "name": "Get Lists Movies",
+            "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/lists\/movies.json",
+            "description": "Get lists movies.json.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "rawModeData": ""
+        },
+        {
+            "id": "d9fae37445721bc79c3204c940edeebd",
+            "name": "Get Lists Movies Box Office",
+            "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/lists\/movies\/box_office.json",
+            "description": "Get lists movies box office.json.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "limit",
+                    "description": "Limits the number of top rentals returned",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "country",
+                    "description": "Provides localized data for the selected country (ISO 3166-1 alpha-2) if available. Otherwise, returns US data.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "rawModeData": ""
+        },
+        {
+            "id": "b5ef75fed5071a53966346ad14b55715",
+            "name": "Get Lists Movies In Theaters",
+            "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/lists\/movies\/in_theaters.json",
+            "description": "Get lists movies in theaters.json.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "page_limit",
+                    "description": "The amount of new release dvds to show per page",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "page",
+                    "description": "The selected page of current DVD releases",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "country",
+                    "description": "Provides localized data for the selected country (ISO 3166-1 alpha-2) if available. Otherwise, returns US data.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "rawModeData": ""
+        },
+        {
+            "id": "7ea7e425ddfac51cae752409ffcd4e24",
+            "name": "Get Lists Movies Opening",
+            "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/lists\/movies\/opening.json",
+            "description": "Get lists movies opening.json.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "limit",
+                    "description": "Limits the number of top rentals returned",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "country",
+                    "description": "Provides localized data for the selected country (ISO 3166-1 alpha-2) if available. Otherwise, returns US data.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "rawModeData": ""
+        },
+        {
+            "id": "f71027b21a2fbdff2fb1be397d312d95",
+            "name": "Get Lists Movies Upcoming",
+            "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/lists\/movies\/upcoming.json",
+            "description": "Get lists movies upcoming.json.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "page_limit",
+                    "description": "The amount of new release dvds to show per page",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "page",
+                    "description": "The selected page of current DVD releases",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "country",
+                    "description": "Provides localized data for the selected country (ISO 3166-1 alpha-2) if available. Otherwise, returns US data.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "rawModeData": ""
+        },
+        {
+            "id": "efd1f31179747b71bf7770e2783e0750",
+            "name": "Get Movie Alias",
+            "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/movie_alias.json",
+            "description": "Get movie alias.json.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "Movie ID. You can use the movies search endpoint or peruse the lists of movies\/dvds to get the Movie ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "type",
+                    "description": "Only supports imdb lookup at this time",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "rawModeData": ""
+        },
+        {
+            "id": "f35bd14a8f83dbcab42c46da953e5512",
+            "name": "Get Movies",
+            "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/movies.json",
+            "description": "Get movies.json.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "q",
+                    "description": "The plain text search query to search for a movie. Remember to URI encode this!",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "page_limit",
+                    "description": "The amount of new release dvds to show per page",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "page",
+                    "description": "The selected page of current DVD releases",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "rawModeData": ""
+        },
+        {
+            "id": "f282bbf7069958e14db4663455b3af86",
+            "name": "Get Movies ",
+            "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/movies\/{id}.json",
+            "description": "Get movies .json.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "Movie ID. You can use the movies search endpoint or peruse the lists of movies\/dvds to get the Movie ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "rawModeData": ""
+        },
+        {
+            "id": "c8935b046474e9354b48eaaaf4832469",
+            "name": "Get Movies Cast",
+            "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/movies\/{id}\/cast.json",
+            "description": "Get movies cast.json.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "Movie ID. You can use the movies search endpoint or peruse the lists of movies\/dvds to get the Movie ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "rawModeData": ""
+        },
+        {
+            "id": "26a21bf09ef116598e89c1af5099abdf",
+            "name": "Get Movies Clips",
+            "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/movies\/{id}\/clips.json",
+            "description": "Get movies clips.json.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "Movie ID. You can use the movies search endpoint or peruse the lists of movies\/dvds to get the Movie ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "rawModeData": ""
+        },
+        {
+            "id": "dcf257c4270abc7af12325047757da88",
+            "name": "Get Movies Reviews",
+            "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/movies\/{id}\/reviews.json",
+            "description": "Get movies reviews.json.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "Movie ID. You can use the movies search endpoint or peruse the lists of movies\/dvds to get the Movie ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "review_type",
+                    "description": "3 different review types are possible: 'all', 'top_critic' and 'dvd'. 'top_critic' shows all the Rotten Tomatoes designated top critics. 'dvd' pulls the reviews given on the DVD of the movie. 'all' as the name implies retrieves all reviews.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "page_limit",
+                    "description": "The amount of new release dvds to show per page",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "page",
+                    "description": "The selected page of current DVD releases",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "country",
+                    "description": "Provides localized data for the selected country (ISO 3166-1 alpha-2) if available. Otherwise, returns US data.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "rawModeData": ""
+        },
+        {
+            "id": "adfd320f4027d9a03ddcc5be7d0d5c8f",
+            "name": "Get Movies Similar",
+            "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/movies\/{id}\/similar.json",
+            "description": "Get movies similar.json.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "Movie ID. You can use the movies search endpoint or peruse the lists of movies\/dvds to get the Movie ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limit",
+                    "description": "Limits the number of top rentals returned",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "rawModeData": ""
+        }
+    ]
+}
