@@ -1,5 +1,5 @@
 {
-    "id": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+    "id": "e2f8fc8aa0283029f27f0bfd53b05f34",
     "name": "Rotten Tomatoes",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "3df543a2182593892c86ec5a73bd6d66",
+            "id": "8cb5c899bfcb39aeb167d35301a80c6e",
             "name": "Get Lists",
             "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/lists.json",
             "description": "Get lists.json.",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "collectionId": "e2f8fc8aa0283029f27f0bfd53b05f34",
             "rawModeData": ""
         },
         {
-            "id": "080335a056346ecff79ef28f23219dcf",
+            "id": "6b942fb812c352a9dc0cf81e5739cbef",
             "name": "Get Lists Dvds",
             "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/lists\/dvds.json",
             "description": "Get lists dvds.json.",
@@ -52,11 +52,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "collectionId": "e2f8fc8aa0283029f27f0bfd53b05f34",
             "rawModeData": ""
         },
         {
-            "id": "a6239729e06f33ec17c9bdb17961ba68",
+            "id": "728c7b9eacf1da3b204ab847ad43b01f",
             "name": "Get Lists Dvds Current Releases",
             "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/lists\/dvds\/current_releases.json",
             "description": "Get lists dvds current releases.json.",
@@ -97,11 +97,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "collectionId": "e2f8fc8aa0283029f27f0bfd53b05f34",
             "rawModeData": ""
         },
         {
-            "id": "c70c2ceb3d086dd4b808e7324865ac1a",
+            "id": "e3af48d31d8c47dc5ec8d77133961526",
             "name": "Get Lists Dvds New Releases",
             "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/lists\/dvds\/new_releases.json",
             "description": "Get lists dvds new releases.json.",
@@ -142,11 +142,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "collectionId": "e2f8fc8aa0283029f27f0bfd53b05f34",
             "rawModeData": ""
         },
         {
-            "id": "a6489d53f5f740c69c2e8fa1ade04654",
+            "id": "58f194f8287258943b28c65b481ceda9",
             "name": "Get Lists Dvds Top Rentals",
             "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/lists\/dvds\/top_rentals.json",
             "description": "Get lists dvds top rentals.json.",
@@ -180,11 +180,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "collectionId": "e2f8fc8aa0283029f27f0bfd53b05f34",
             "rawModeData": ""
         },
         {
-            "id": "50365d55c2550baa80d1dd3022dad840",
+            "id": "218100b33827eb98f52e3d2b0cd0aa12",
             "name": "Get Lists Dvds Upcoming",
             "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/lists\/dvds\/upcoming.json",
             "description": "Get lists dvds upcoming.json.",
@@ -225,11 +225,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "collectionId": "e2f8fc8aa0283029f27f0bfd53b05f34",
             "rawModeData": ""
         },
         {
-            "id": "eb06203141938eaa7181c02110139eff",
+            "id": "cae2af9fd4e2a88362ee7f394193f33a",
             "name": "Get Lists Movies",
             "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/lists\/movies.json",
             "description": "Get lists movies.json.",
@@ -248,11 +248,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "collectionId": "e2f8fc8aa0283029f27f0bfd53b05f34",
             "rawModeData": ""
         },
         {
-            "id": "d9fae37445721bc79c3204c940edeebd",
+            "id": "9a683cb92f3eb3f4056cacf038bd044c",
             "name": "Get Lists Movies Box Office",
             "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/lists\/movies\/box_office.json",
             "description": "Get lists movies box office.json.",
@@ -286,11 +286,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "collectionId": "e2f8fc8aa0283029f27f0bfd53b05f34",
             "rawModeData": ""
         },
         {
-            "id": "b5ef75fed5071a53966346ad14b55715",
+            "id": "c6cff17b45066917aed1496d0d1ff462",
             "name": "Get Lists Movies In Theaters",
             "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/lists\/movies\/in_theaters.json",
             "description": "Get lists movies in theaters.json.",
@@ -331,11 +331,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "collectionId": "e2f8fc8aa0283029f27f0bfd53b05f34",
             "rawModeData": ""
         },
         {
-            "id": "7ea7e425ddfac51cae752409ffcd4e24",
+            "id": "fff27f1676bab561426bcec98343a150",
             "name": "Get Lists Movies Opening",
             "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/lists\/movies\/opening.json",
             "description": "Get lists movies opening.json.",
@@ -369,11 +369,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "collectionId": "e2f8fc8aa0283029f27f0bfd53b05f34",
             "rawModeData": ""
         },
         {
-            "id": "f71027b21a2fbdff2fb1be397d312d95",
+            "id": "e2fdfc45d3a69fbe9efaf3609f090fad",
             "name": "Get Lists Movies Upcoming",
             "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/lists\/movies\/upcoming.json",
             "description": "Get lists movies upcoming.json.",
@@ -414,11 +414,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "collectionId": "e2f8fc8aa0283029f27f0bfd53b05f34",
             "rawModeData": ""
         },
         {
-            "id": "efd1f31179747b71bf7770e2783e0750",
+            "id": "e9e937616d2ccbe461b9783078079cb1",
             "name": "Get Movie Alias",
             "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/movie_alias.json",
             "description": "Get movie alias.json.",
@@ -452,11 +452,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "collectionId": "e2f8fc8aa0283029f27f0bfd53b05f34",
             "rawModeData": ""
         },
         {
-            "id": "f35bd14a8f83dbcab42c46da953e5512",
+            "id": "4a50ae6ef90b6daddaa8410d87722158",
             "name": "Get Movies",
             "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/movies.json",
             "description": "Get movies.json.",
@@ -497,11 +497,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "collectionId": "e2f8fc8aa0283029f27f0bfd53b05f34",
             "rawModeData": ""
         },
         {
-            "id": "f282bbf7069958e14db4663455b3af86",
+            "id": "8f7cd58c625e661754949b4e311bf054",
             "name": "Get Movies ",
             "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/movies\/{id}.json",
             "description": "Get movies .json.",
@@ -528,11 +528,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "collectionId": "e2f8fc8aa0283029f27f0bfd53b05f34",
             "rawModeData": ""
         },
         {
-            "id": "c8935b046474e9354b48eaaaf4832469",
+            "id": "22a6800bd6e764034916aecbee07013a",
             "name": "Get Movies Cast",
             "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/movies\/{id}\/cast.json",
             "description": "Get movies cast.json.",
@@ -559,11 +559,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "collectionId": "e2f8fc8aa0283029f27f0bfd53b05f34",
             "rawModeData": ""
         },
         {
-            "id": "26a21bf09ef116598e89c1af5099abdf",
+            "id": "1227ca6f0484fea930f111b13c9d5025",
             "name": "Get Movies Clips",
             "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/movies\/{id}\/clips.json",
             "description": "Get movies clips.json.",
@@ -590,11 +590,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "collectionId": "e2f8fc8aa0283029f27f0bfd53b05f34",
             "rawModeData": ""
         },
         {
-            "id": "dcf257c4270abc7af12325047757da88",
+            "id": "c056bbfd91504fbcf9bb7e338c52ed51",
             "name": "Get Movies Reviews",
             "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/movies\/{id}\/reviews.json",
             "description": "Get movies reviews.json.",
@@ -649,11 +649,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "collectionId": "e2f8fc8aa0283029f27f0bfd53b05f34",
             "rawModeData": ""
         },
         {
-            "id": "adfd320f4027d9a03ddcc5be7d0d5c8f",
+            "id": "a4034f2e01fd1a0934c35d37031c484e",
             "name": "Get Movies Similar",
             "url": "httpsapi.rottentomatoes.com\/api\/public\/v1.0\/movies\/{id}\/similar.json",
             "description": "Get movies similar.json.",
@@ -687,7 +687,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e35cd5f2e91fe06c2cca1b2b9772c1dc",
+            "collectionId": "e2f8fc8aa0283029f27f0bfd53b05f34",
             "rawModeData": ""
         }
     ]
